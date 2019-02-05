@@ -1,14 +1,13 @@
 # Setup
-title:        cyq
-tagline:      大概都是技术相关吧~
-baseurl:      /
-paginate:     5
-locale:       "zh_CN"
-encoding:     utf-8
+title:        Project or Site name
+tagline:      A responsive theme for your project on GitHub Pages
+baseurl:      ""
+paginate:     1
+locale:       "en"
 
 # About/contact
 author:
-  name:       cyq
+  name:       Author name
   url:        http://yourhomepage.com 
 
 # Gems
