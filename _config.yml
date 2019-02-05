@@ -1,18 +1,25 @@
-# Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
-paginate:     1
-locale:       "en"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+# Site settings
+title: cyq的梦话
+description: '是时候展现真正的技术了~' # write a nice description for your blog
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site http://www.example.com
+# google_analytics: 'UA-XXXXXX-X'
+twitter_username: ''
 
-# Gems
-gems:
-  - jekyll-paginate
-
-#Others
+# Build settings
+encoding: utf-8
+locale: "zh_CN"
 markdown: kramdown
+
+permalink: '/:title/'
+
+gems: [jekyll-paginate]
+
+paginate: 10
