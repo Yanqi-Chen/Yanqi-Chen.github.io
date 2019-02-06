@@ -1,36 +1,67 @@
-<header class="page-header">
+<header class="header">
   <!-- mathjax config similar to math.stackexchange -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+
   <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-          processEscapes: true
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
         }
       });
   </script>
 
   <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-          tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      MathJax.Hub.Queue(function() {
+          var all = MathJax.Hub.getAllJax(), i;
+          for(i=0; i < all.length; i += 1) {
+              all[i].SourceElement().parentNode.className += ' has-jax';
           }
-        });
-  </script>
-
-  <script type="text/x-mathjax-config">
-        MathJax.Hub.Queue(function() {
-            var all = MathJax.Hub.getAllJax(), i;
-            for(i=0; i < all.length; i += 1) {
-                all[i].SourceElement().parentNode.className += ' has-jax';
-            }
-        });
+      });
   </script>
 
   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
+  <link href="/css/rouge1.css" rel="stylesheet" />
+  <div class="overlay">
 
-  <h1 class="project-name"> <a class="header-link" href="{{ site.baseurl }}/"> {{ site.title }}</a></h1>
-  <!--<h3 style="font-weight: lighter;">a blog for <a class="header-link" href="http://canijustgo.com/" target="_blank">canijustgo.com</a></h3>-->
-  <h3>{% if site.twitter_username %}<a class="header-link" href="http://twitter.com/{{ site.twitter_username }}" target="_blank">follow
-      @{{ site.twitter_username }}</a></h3>{% endif %}
+    <div class="container">
+
+      <h1 class="title">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a> <small>v2</small>
+      </h1>
+
+      <nav class="navbar">
+        <a href="#" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <ul class="nav">
+          {% for page in site.pages %}
+          {% if page.title and page.title != 'Home' %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+          <li><a href="{{ site.author.url }}/about" target="_blank">the autor</a></li>
+          <li><a href="{{ site.github }}" target="_blank">Github</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    {% if page.slug == 'home' %}
+    <h2 class="txt-center">
+      Welcome to <strong>{{ site.title }}</strong>!
+    </h2>
+    {% endif %}
+
+  </div>
+
 </header>
