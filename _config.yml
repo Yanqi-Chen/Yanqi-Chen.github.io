@@ -1,38 +1,102 @@
 # Site settings
-title: cyq的梦呓
-email: chyq@pku.edu.cn
-description: 是时候展现真正的技术了~
-baseurl: ""
-url: "https://yanqi-chen.github.io"
+title: CYQ Blog
+SEOTitle: cyq的呓语 | CYQ Blog
+header-img: img/cover.jpg
+email: chyq@pku.edu.com
+description: "是时候展现真正的技术了~"
+keyword: "CYQ"
+url: "https://yanqi-chen.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/Yanqi-Chen/Yanqi-Chen.github.io.git" # you code repository
 
-author:
-  name     : 'cyq'
-  email    : chyq@pku.edu.cn
-  url      : https://yanqi-chen.github.io
-  facebook : 
-  twitter  : 
+# Sidebar settings
+sidebar: false                           # whether or not using Sidebar.
+sidebar-about-description: ""
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-github: https://github.com/yanqi-chen
-disqus_shortname: 
-google_analytics: 
 
-encoding: utf-8
-locale: "zh_CN"
 
-paginate: 5
-comments: false
-paginate_path: "/page/:num"
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+zhihu_username:     
+github_username:    Yanqi-Chen
+facebook_username:  
+jianshu_username:   
+#twitter_username:   qiubaiying
 
-sass:
-  style: :compressed
-  sass_dir: _sass
+
+
 
 # Build settings
-markdown  : kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-permalink : /:title/
 
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: false    #是否开启Gitalk评论
+  clientID:                             #生成的clientID
+  clientSecret:    #生成的clientSecret
+  repo:     #仓库名称
+  owner:     #github用户名
+  admin: 
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: d3f41389e63d0fb6059a52f328eb0296
+
+# Google Analytics
+ga_track_id: 'UA-134047134-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    
+]
