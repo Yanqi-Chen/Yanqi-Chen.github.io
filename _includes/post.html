@@ -7,6 +7,6 @@
     </span>
   </header>
   <div class="post-content">
-    {{ post.content | strip_html | truncatewords: 30 }} <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Read more &raquo;</a>
+    {{ post.content | strip_html | truncate: 200 }} <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Read more &raquo;</a>
   </div>
 </article>

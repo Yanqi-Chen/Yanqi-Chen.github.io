@@ -1,7 +1,7 @@
 # Site settings
 title: cyq的梦呓
 email: chyq@pku.edu.cn
-description: Time
+description: 是时候展现真正的技术了~
 baseurl: ""
 url: "https://yanqi-chen.github.io"
 
@@ -19,8 +19,8 @@ google_analytics:
 encoding: utf-8
 locale: "zh_CN"
 
-paginate: 2
-comments: true
+paginate: 5
+comments: false
 paginate_path: "/page/:num"
 
 sass:
@@ -31,5 +31,8 @@ sass:
 markdown  : kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 permalink : /:title/
+
+gems: [jekyll-paginate]
