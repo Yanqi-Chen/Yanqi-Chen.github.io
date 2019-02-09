@@ -1,0 +1,364 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5-alpha7 -->
+<!-- CreationDate: Sun Feb 24 21:22:40 2008 -->
+<!-- Magnification: 1.050 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="5.5in" height="6.7in" viewBox="2680 522 6592 8036">
+<g style="stroke-width:.025in; stroke:black; fill:none">
+<!-- Circle -->
+<circle cx="4251" cy="1417" r="333"
+ style="stroke:#ff0000;stroke-width:48;"/>
+<!-- Line -->
+<polyline points="9259,8503
+2692,8503
+" style="stroke:#000000;stroke-width:8;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:50 50;
+"/>
+<!-- Line -->
+<polyline points="3543,8503
+4488,8031
+4251,6614
+5196,5196
+5905,5433
+" style="stroke:#0000ff;stroke-width:48;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="4488,4960
+6377,3307
+6614,5669
+" style="stroke:#0000ff;stroke-width:48;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="6850,1889
+4960,2362
+4488,1653
+" style="stroke:#0000ff;stroke-width:48;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="8267,2834
+8031,3779
+" style="stroke:#0000ff;stroke-width:48;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="6614,5669
+5905,5433
+5433,6850
+6141,8031
+5433,8503
+" style="stroke:#ff0000;stroke-width:48;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="4488,4960
+5196,5196
+" style="stroke:#ff0000;stroke-width:48;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="6377,3307
+6850,1889
+8267,2834
+" style="stroke:#ff0000;stroke-width:48;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="7086,944
+7087,943
+7088,941
+7091,937
+7097,930
+7104,920
+7112,909
+7124,893
+7138,875
+7153,855
+7172,833
+7191,810
+7213,785
+7236,759
+7260,733
+7286,708
+7312,684
+7338,661
+7365,639
+7394,620
+7423,603
+7453,590
+7482,578
+7513,572
+7545,569
+7579,571
+7612,577
+7647,590
+7683,608
+7720,635
+7758,667
+7795,708
+7824,746
+7851,787
+7879,831
+7903,876
+7925,922
+7945,969
+7963,1015
+7979,1060
+7991,1104
+8002,1147
+8011,1188
+8018,1229
+8024,1268
+8027,1306
+8030,1342
+8031,1378
+8032,1413
+8032,1447
+8032,1482
+8031,1516
+8030,1549
+8030,1583
+8030,1617
+8031,1653
+8032,1690
+8035,1727
+8038,1765
+8044,1805
+8051,1846
+8060,1889
+8071,1934
+8083,1981
+8099,2028
+8117,2076
+8137,2125
+8159,2175
+8183,2224
+8211,2272
+8238,2319
+8267,2362
+8304,2410
+8342,2452
+8379,2487
+8415,2515
+8450,2537
+8483,2554
+8517,2565
+8549,2573
+8580,2575
+8609,2575
+8639,2571
+8668,2564
+8697,2555
+8724,2544
+8750,2531
+8776,2517
+8802,2501
+8826,2486
+8849,2469
+8871,2453
+8890,2437
+8909,2423
+8924,2409
+8938,2396
+8950,2387
+8958,2379
+8965,2372
+8971,2367
+8974,2364
+8975,2363
+8976,2362
+" style="stroke:#ff0000;stroke-width:48;
+stroke-linejoin:bevel; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="7086,944
+7088,944
+7091,945
+7098,946
+7107,949
+7120,952
+7135,956
+7154,960
+7174,966
+7197,973
+7220,981
+7244,990
+7267,1000
+7290,1012
+7312,1025
+7334,1041
+7355,1059
+7374,1080
+7392,1103
+7408,1131
+7422,1162
+7433,1196
+7439,1233
+7442,1269
+7443,1303
+7442,1335
+7440,1363
+7438,1387
+7434,1408
+7430,1427
+7426,1443
+7422,1458
+7418,1472
+7414,1486
+7407,1501
+7401,1517
+7394,1534
+7384,1554
+7373,1577
+7359,1605
+7342,1634
+7322,1666
+7300,1699
+7275,1732
+7245,1764
+7214,1793
+7183,1816
+7152,1835
+7122,1849
+7093,1861
+7064,1870
+7036,1877
+7008,1882
+6981,1885
+6956,1887
+6932,1889
+6910,1890
+6891,1890
+6875,1890
+6864,1889
+6856,1889
+6852,1889
+6850,1889
+" style="stroke:#0000ff;stroke-width:48;
+stroke-linejoin:bevel; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="6850,1889
+6848,1888
+6845,1885
+6838,1879
+6830,1870
+6818,1859
+6804,1844
+6787,1827
+6769,1808
+6750,1787
+6731,1764
+6712,1740
+6693,1715
+6676,1687
+6659,1657
+6643,1625
+6628,1589
+6616,1550
+6605,1508
+6598,1464
+6595,1423
+6594,1384
+6594,1350
+6596,1318
+6599,1291
+6602,1268
+6605,1249
+6608,1233
+6612,1219
+6616,1207
+6619,1196
+6623,1186
+6627,1174
+6633,1162
+6640,1148
+6647,1132
+6657,1113
+6669,1092
+6683,1068
+6700,1043
+6719,1017
+6740,992
+6765,967
+6791,949
+6816,934
+6841,923
+6866,917
+6890,913
+6913,911
+6936,911
+6958,913
+6980,916
+7001,920
+7021,924
+7038,930
+7054,934
+7065,937
+7075,940
+7081,942
+7084,943
+7086,944
+" style="stroke:#ff0000;stroke-width:48;
+stroke-linejoin:bevel; stroke-linecap:butt;
+"/>
+<!-- Circle -->
+<circle cx="6141" cy="8031" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="5433" cy="6850" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="5905" cy="5433" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="6614" cy="5669" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="5196" cy="5196" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="4535" cy="4960" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="6377" cy="3307" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="8267" cy="2834" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="8031" cy="3779" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="8976" cy="2362" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="4960" cy="2362" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="4488" cy="1653" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="4251" cy="6614" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="4488" cy="8031" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="5433" cy="8503" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="6850" cy="1889" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="7086" cy="944" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="3543" cy="8503" r="47"
+ style="fill:#ffffff;stroke:#000000;stroke-width:8;"/>
+</g>
+</svg>
