@@ -1,4 +1,9 @@
-_site
+# Jekyll
+_site/
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+
 node_modules
 npm-debug.log
 .DS_Store
@@ -6,3 +11,11 @@ npm-debug.log
 */*/.DS_Store
 *.sh
 .vscode
+
+# Ruby
+.bundle/
+.byebug_history
+.ruby-gemset
+.ruby-version
+*.gem
+Gemfile.lock
