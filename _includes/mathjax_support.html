@@ -5,6 +5,12 @@
       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
       processEscapes: true
+    },
+    TeX: { 
+      extensions: ["color.js", "AMSsymbols.js", "action.js"],
+      unicode: {
+        fonts: "'STIX Two Math', STIXGeneral, 'Arial Unicode MS'"
+      }
     }
   });
   MathJax.Hub.Queue(function() {

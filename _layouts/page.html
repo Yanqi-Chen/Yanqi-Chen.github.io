@@ -71,6 +71,17 @@ layout: default
           displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
           skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
           processEscapes: true
+        },
+        TeX: { 
+            extensions: ["noUndefined.js"],
+            unicode: {
+              fonts: "'STIX Two Math', STIXGeneral, 'Arial Unicode MS'"
+            },
+            noUndefined: {
+                attributes: {
+                  mathcolor: "grey"
+                }
+            }
         }
       });
       MathJax.Hub.Queue(function() {
