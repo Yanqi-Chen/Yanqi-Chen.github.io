@@ -31,6 +31,20 @@ layout: default
 
 				{{ content }}
 
+                {% if site.license.enable %}
+                {% assign licensename = site.license.name %}
+                <div class="article__license">
+                    <div class="license">
+                        <p>This work is licensed under a 
+                            <a itemprop="license" rel="license" href="{{ site.data.licenses[licensename].url }}">{{ site.data.licenses[licensename].name }}</a> license.
+                            <a rel="license" href="{{ site.data.licenses[licensename].url }}">
+                                <img alt="{{ site.data.licenses[licensename].name }}" src="{{ site.data.licenses[licensename].image }}" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                {% endif %}
+
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     {% if page.previous.url %}

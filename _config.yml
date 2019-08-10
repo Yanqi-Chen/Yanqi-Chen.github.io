@@ -43,6 +43,11 @@ timezone: Asia/Shanghai
 plugins: [jekyll-paginate, jemoji, jekyll-sitemap]
 
 
+# License
+license: 
+  enable: true
+  name: CC-BY-SA-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
+
 
 # Markdown settings
 # replace redcarpet to kramdown,
