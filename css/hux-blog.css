@@ -991,13 +991,27 @@ samp {
   padding: 85px 0 20px;
   color: #404040;
 }
+.intro-header.dark .site-heading,
+.intro-header.dark .post-heading,
+.intro-header.dark .page-heading {
+  padding: 85px 0 55px;
+  color: #404040;
+}
+.intro-header.dark .header-img-credit {
+  color: #404040;
+}
+.intro-header.dark .header-img-credit a {
+  color: black;
+}
 .intro-header.style-text .site-heading .subheading,
 .intro-header.style-text .post-heading .subheading,
 .intro-header.style-text .page-heading .subheading {
   margin-bottom: 15px;
 }
 .intro-header.style-text .tags a,
-.intro-header.style-text .tags .tag {
+.intro-header.style-text .tags .tag,
+.intro-header.dark .tags a,
+.intro-header.dark .tags .tag {
   border-color: #404040;
   color: #404040;
 }
@@ -1654,4 +1668,26 @@ img::-moz-selection {
 .MathJax_SVG_Display {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+}
+.license p {
+  color: #aaaaaa;
+}
+.license img:hover, .license img:focus {
+  cursor: pointer;
+}
+.license img {
+  display: inline;
+  margin: 0 auto 0 auto;
+}
+.license a {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+.license a, .license a:link, .license a:visited {
+  color: #00b5da;
+  text-decoration: none;
+  font-weight: 600;
+}
+.license a:hover {
+  color: #df6726;
 }
