@@ -1675,7 +1675,6 @@ img::-moz-selection {
   cursor: pointer;
 }
 .license img {
-  display: inline;
   margin: 0 auto 0 auto;
 }
 .license a {
