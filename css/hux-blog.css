@@ -1690,3 +1690,9 @@ img::-moz-selection {
 .license a:hover {
   color: #df6726;
 }
+a.footnote:before {   
+  content: "[";
+}
+a.footnote:after {
+    content: "]";
+}
