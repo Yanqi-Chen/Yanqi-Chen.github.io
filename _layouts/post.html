@@ -35,7 +35,10 @@ layout: default
                 {% assign license-name = site.license.name %}
                 <div class="article__license">
                     <div class="license">
-                        <p> This work is licensed under a 
+                        <p>
+                            <a rel="license" href="{{ site.data.licenses[license-name].url }}"><img alt="{{ site.data.licenses[license-name].name }}" style="border-width:0" src="{{ site.data.licenses[license-name].image }}" />
+                            </a><br />
+                            This work is licensed under a 
                             <a itemprop="license" rel="license" href="{{ site.data.licenses[license-name].url }}">{{ site.data.licenses[license-name].name }}</a> license.
                             <i class="fab fa-creative-commons"></i>
                             {% if license-name contains 'BY' %}
@@ -50,9 +53,6 @@ layout: default
                             {% if license-name contains 'SA' %}
                             <i class="fab fa-creative-commons-sa"></i>
                             {% endif %}
-                            <a rel="license" href="{{ site.data.licenses[license-name].url }}">
-                                <img alt="{{ site.data.licenses[license-name].name }}" src="{{ site.data.licenses[license-name].image }}" />
-                            </a>
                         </p>
                     </div>
                 </div>
