@@ -1551,6 +1551,7 @@ img::-moz-selection {
   height: auto;
   margin: 1.5em auto 1.6em auto;
   border-radius: 0.3125em;
+  padding: 5px;
   box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);
 }
 .post-container img.emoji {
