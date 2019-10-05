@@ -1205,6 +1205,13 @@ samp {
   margin-top: 60px;
   font-weight: 700;
 }
+.section-nav {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px 30px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
 .caption {
   text-align: center;
   font-size: 14px;
@@ -1698,4 +1705,19 @@ a.footnote:before {
 }
 a.footnote:after {
     content: "]";
+}
+ul.section-nav {
+  list-style-type: cjk-ideographic;
+}
+ul.section-nav ul {
+  list-style-type: decimal;
+}
+ul.section-nav ul ul {
+  list-style-type: upper-roman;
+}
+ul.section-nav ul ul ul{
+  list-style-type: lower-roman;
+}
+ul.section-nav ul ul ul ul{
+  list-style-type: lower-alpha;
 }
