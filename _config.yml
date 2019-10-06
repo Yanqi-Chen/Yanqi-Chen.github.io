@@ -40,11 +40,7 @@ timezone: Asia/Shanghai
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate, jemoji, jekyll-sitemap, jekyll-toc]
-
-toc:
-  min_level: 1 # default: 1
-  max_level: 5 # default: 6
+plugins: [jekyll-paginate, jemoji, jekyll-sitemap]
 
 
 # License

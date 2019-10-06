@@ -29,14 +29,8 @@ layout: default
                 </select>
                 {% endif %}
 
-				<div>
-                    <div id="table-of-contents">
-                      {% toc %}
-                    </div>
-                    <div id="markdown-content">
-                      {{ content }}
-                    </div>
-                </div>
+                {% include toc.html html=content class='toc' item_class='toc_level%level%' h_max=4 %}
+                {{ content }}
 
                 {% if site.license.enable %}
                 {% assign license-name = site.license.name %}

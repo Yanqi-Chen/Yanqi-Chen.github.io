@@ -5,7 +5,6 @@ gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-redirect-from"
 gem "safe_yaml"
-gem 'jekyll-toc'
 gem "kramdown", ">= 1.6"
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem "jekyll-watch"

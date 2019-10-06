@@ -1,0 +1,33 @@
+ul.toc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50%;
+    list-style-type: cjk-ideographic;
+    background-color: #F9F9F9;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+li.toc_level1 ul {
+    list-style: none;
+    padding-left: 10%
+}
+li.toc_level2 ul {
+    padding-left: 5%;
+}
+li.toc_level1 {
+    font-weight: 700;
+    font-size: 16px;
+}
+li.toc_level2 {
+    font-weight: 400;
+    font-size: 14px;
+}
+li.toc_level3 {
+    font-size: 12px;
+}
+li.toc_level4 {
+    font-weight: 300;
+}
