@@ -1557,6 +1557,8 @@ img::-moz-selection {
 .post-container img.emoji {
   display: inline;
   margin: 0 auto 0 auto;
+  padding: 0;
+  box-shadow: none;
 }
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
@@ -1680,6 +1682,7 @@ img::-moz-selection {
 }
 .license img {
   margin: 0 auto 0 auto;
+  box-shadow: none;
 }
 .license a {
   -webkit-transition: all 0.2s ease-in-out;
