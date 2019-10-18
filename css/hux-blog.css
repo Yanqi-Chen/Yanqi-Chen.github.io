@@ -540,10 +540,10 @@ pre.highlight {
   padding: 0;
 }
 .highlighter-rouge .highlight table > tbody > tr > td > pre {
-  padding: 14px;
+  padding: 5px;
 }
 .highlighter-rouge .highlight td.rouge-gutter {
-  width: 56px;
+  width: 40px;
 }
 .highlighter-rouge .highlight .lineno {
   text-align: right;
