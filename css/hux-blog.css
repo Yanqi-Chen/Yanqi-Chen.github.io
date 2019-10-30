@@ -611,12 +611,34 @@ article {
 }
 blockquote {
   color: gray;
+  position: relative;
   font-style: italic;
   font-size: 0.95em;
   margin: 20px 0 20px;
+  padding: 20px 40px;
+}
+blockquote:before {
+  font-family: Georgia, serif;
+  display: block;
+  content: open-quote;
+  font-size: 60px;
+  position: absolute;
+  left: 5px;
+  top: -10px;
+  color: #7a7a7a;
 }
 blockquote p {
   margin: 0;
+  display: inline;
+}
+blockquote cite {
+  color: #999999;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+blockquote cite:before {
+  content: "\2014 \2009";
 }
 small.img-hint {
   display: block;
