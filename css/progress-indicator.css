@@ -1,0 +1,8 @@
+.progress-indicator {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 0.25em;
+	z-index: 99;
+	background-color: green;
+}
