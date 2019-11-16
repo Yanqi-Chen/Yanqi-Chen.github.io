@@ -24,7 +24,9 @@ header-mask: 0.2
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        <i class="fas fa-user"></i> {{ post.author }}
+        <i class="far fa-calendar-alt"></i> {{ post.date | date: "%B %-d, %Y" }}
+        <i class="far fa-file-word"></i> {{ post.content | strip_html | strip_newlines | split: "" | size }} words
     </p>
 </div>
 <hr>

@@ -114,7 +114,11 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: true
 
-
+# Visit count (Based on LeanCloud)
+leancloud:
+  enable: true
+  app_id: 18VsSzL82aE3kCh2Vsv2tq84-gzGzoHsz
+  app_key: SL6rsnTNNjJX4UJd1HCJrJI5
 
 # Friends
 friends: [

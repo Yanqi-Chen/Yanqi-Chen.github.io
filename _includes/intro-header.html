@@ -19,6 +19,7 @@
         background: rgba(0,0,0, {{ page.header-mask }});
     }
     {% endif %}
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </style>
 {% if page.header-style == 'text' %}
 <header class="intro-header style-text" >
@@ -45,7 +46,13 @@
                     <h1>{{ page.title }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">
+                        <i class="fas fa-user"></i> {{ page.author }}
+                        <i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %-d, %Y" }}
+                        <i class="far fa-eye"></i>
+                        <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"></span> views
+                        <i class="far fa-file-word"></i> {{ content | strip_html | strip_newlines | split: "" | size }} words
+                    </span>
                 </div>
             </div>
         </div>
@@ -83,8 +90,14 @@
                     <h1>{{ page.title }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
-                        on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">
+                        <i class="fas fa-user"></i> {{ page.author }}
+                        <i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %-d, %Y" }}
+                        <i class="far fa-eye"></i>
+                        <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"></span>
+                         views
+                        <i class="far fa-file-word"></i> {{ content | strip_html | strip_newlines | split: "" | size }} words
+                    </span>
                 </div>
             </div>
         </div>
