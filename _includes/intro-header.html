@@ -139,7 +139,7 @@
                         <i class="fas fa-user"></i> {{ page.author }}
                         <i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %-d, %Y" }}
                         <i class="far fa-eye"></i>
-                        <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"></span> views
+                        <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"> - </span> views
                         <i class="far fa-file-word"></i> {{ content | strip_html | strip_newlines | split: "" | size }} words
                     </span>
                 </div>
