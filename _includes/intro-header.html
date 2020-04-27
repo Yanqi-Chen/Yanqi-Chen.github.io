@@ -103,7 +103,7 @@
         type: 'POST',
         dataType: "json",
         //async: false, //jquery3中可以直接使用回调函数，不用再指定async
-        url: "https://freegeoip.app/json/?callback=?"
+        url: "https://api.ipify.org?format=jsonp"
       };
       $.ajax(options)
       .done(function(data, textStatus, jqXHR) {
@@ -129,7 +129,7 @@
       query.find({
         success: function(results) {
           if (results.length > 0) {
-            console.log('该IP已访问过该文章');
+            // console.log('该IP已访问过该文章');
 
             var oldVisitor = results[0];
 
@@ -139,7 +139,7 @@
             var timePassed = curTime.getTime() - lastTime.getTime();
 
             if(timePassed > 1 * 60 * 1000) {
-              console.log('距离该IP上一次访问该文章已超过了1分钟，更新访问记录，并增加访问次数');
+              // console.log('距离该IP上一次访问该文章已超过了1分钟，更新访问记录，并增加访问次数');
 
               addCount(Counter);
 
@@ -151,11 +151,11 @@
                 }
               });
             } else {
-              console.log('这是该IP 1分钟内重复访问该文章，不更新访问记录，不增加访问次数');
+              // console.log('这是该IP 1分钟内重复访问该文章，不更新访问记录，不增加访问次数');
               showCount(Counter);
             }
           } else {
-            console.log('该IP第一次访问该文章，保存新的访问记录，并增加访问次数');
+            // console.log('该IP第一次访问该文章，保存新的访问记录，并增加访问次数');
 
             addCount(Counter);
 
