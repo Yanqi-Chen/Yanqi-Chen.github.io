@@ -6,6 +6,7 @@ subtitle:   "Spiking neural networks as universal function approximators: Learni
 author:     CYQ
 header-img: img/SNN.png
 catalog: true
+mathjax: true
 header-mask: 0.2
 tags:
   - SNN
@@ -55,6 +56,7 @@ Sander Bohte来自**荷兰阿姆斯特丹信息与数学科学中心(Centrum Wis
 适应性神经元也并非什么新东西，Izhikevich[^izhikevich]和AdEx(Adaptive exponential integrate-and-fire)[^adex]模型都是本世纪初就提出的适应性神经元模型。这些神经元的通常构建方法通常是给神经元的某个参数增加一个动态方程，这个参数的动态方程和神经元的膜电位方程一样，用微分方程描述。作者文章中的神经元也不例外，将动态方程加在了阈值上。
 
 具体来说，作者希望阈值也随着脉冲的发放而相应的提高，在没有脉冲时指数衰减，与膜电位的行为一致，但使用不同的膜电位参数$\tau$。用$\theta$表示神经元的阈值，$u_t$表示$t$时刻的膜电位，阈下动态方程可以描述如下：
+
 $$
 \begin{align}
 \alpha&=\exp(-\mathrm{d}t/\tau_m)\\
@@ -64,6 +66,7 @@ $$
 u_t&=\alpha u_{t-1}+(1-\alpha)R_mI_t-S_{t-1}\theta
 \end{align}
 $$
+
 其中$\tau_m,\tau_{adp}$都是可训练的参数，并且每个神经元不共享这两个参数，对整个网络用替代梯度进行训练。
 
 总的来说，将Adaptive神经元引入并不算特别创新，但是这个方法一定程度上解决了SNN在编解码上面的问题。官方代码实现位于[Github](https://github.com/byin-cwi/SRNN-ICONs2020)。
@@ -92,6 +95,5 @@ $$
 [^SRNN]:Yin, B., F. Corradi and S. M. Bohté (2020). Effective and Efficient Computation with Multiple-timescale Spiking Recurrent Neural Networks. <u>International Conference on Neuromorphic Systems 2020</u>**:** 1-8.
 [^izhikevich]:Izhikevich, E. M. (2003). "Simple model of spiking neurons." <u>IEEE transactions on Neural Networks</u> **14**(6): 1569-1572.
 [^adex]:Brette, R. and W. Gerstner (2005). "Adaptive exponential integrate-and-fire model as an effective description of neuronal activity." <u>Journal of Neurophysiology</u> **94**(5): 3637-3642.
-
 [^e-prop]:Bellec, G., F. Scherr, A. Subramoney, E. Hajek, D. Salaj, R. Legenstein and W. Maass (2020). "A solution to the learning dilemma for recurrent networks of spiking neurons." <u>Nature Communications</u> **11**(1): 3625.
 
