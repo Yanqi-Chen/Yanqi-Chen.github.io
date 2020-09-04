@@ -20,6 +20,10 @@ typora-root-url: ..
 
 言归正传，来看看今年各个大佬的研究组都出了些啥进展
 
+# 会议提要
+
+以下是总结的会议精神:dog:
+
 ## Bohte组
 
 Sander Bohte来自**荷兰阿姆斯特丹信息与数学科学中心(Centrum Wiskunde & Informatica, CWI)**，是研究SNN并且将反向传播算法应用至SNN上的早期研究者，在其攻读博士期间以一作身份在Neurocomputing上发表了经典之作SpikeProp[^spikeprop]，迄今仍然有各种改进其技术的文章。之后若干年也笔耕不辍。他们这次拿出来的文章是刚刚中ICONS2020的*SRNN*[^SRNN]。
@@ -70,7 +74,7 @@ $$
 
 ## Wolfgang Maass组
 
-这个组在计算神经科学领域内几乎是无人不知无人不晓了，这次直接带出一篇Nature Communications就问你怕不怕。好在这篇文章还在审时我们组就看过一遍并且讨论过了，因此能比较容易跟上作者的演讲思路。
+这个组在机器学习理论领域与计算神经科学领域内几乎是无人不知无人不晓了，这次直接带出一篇Nature Communications就问你怕不怕（当然他们组正刊都有很多篇）。好在这篇文章还在审时我们就看过一遍并且讨论过了，因此能比较容易跟上作者的演讲思路。
 
 本文利用资格迹(eligibility trace)解决了单层RNN（当然也包括单层SNN）的在线训练问题，以及提出了一种近似BPTT的在线训练算法e-prop[^e-prop]。
 
@@ -82,7 +86,7 @@ $$
 
 
 
-### 参考文献
+# 参考文献
 
 [^spikeprop]:Bohte, S. M., J. N. Kok and H. La Poutre (2002). "Error-backpropagation in temporally encoded networks of spiking neurons." <u>Neurocomputing</u> **48**: 17-37.
 [^SRNN]:Yin, B., F. Corradi and S. M. Bohté (2020). Effective and Efficient Computation with Multiple-timescale Spiking Recurrent Neural Networks. <u>International Conference on Neuromorphic Systems 2020</u>**:** 1-8.
