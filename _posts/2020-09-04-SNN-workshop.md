@@ -5,9 +5,11 @@ date:   2020-09-04
 subtitle:   "Spiking neural networks as universal function approximators: Learning algorithms and applications"
 author:     CYQ
 header-img: img/SNN.png
+header-img-credit: Rethinking the performance comparison between SNNS and ANNS. Neural Networks, 2020
+header-img-credit-href: 'https://linkinghub.elsevier.com/retrieve/pii/S0893608019302667'
 catalog: true
 mathjax: true
-header-mask: 0.2
+header-mask: 0.4
 tags:
   - SNN
 typora-root-url: ..
@@ -37,17 +39,17 @@ Sander Bohte来自**荷兰阿姆斯特丹信息与数学科学中心(Centrum Wis
 
 一个示例如下图：
 
-![spike-coding](/img/spike-coding.png)
+![spike-coding](/img/SNN-workshop/spike-coding.png)
 
 以神经元$S_j$为基准，红色的为前突触输入在LIF神经元上的累计膜电位（即假定神经元不发放时的膜电位）。每一次越过发放阈值$\vartheta_0$时，就会向后突触发放脉冲并引起相应的refractory response（绿色），最终导致$S_k$上的PSP如蓝色曲线所示。
 
 可以看到，PSP的形状一定程度上和输入信号的累计形状是类似的。前者可以视作对后者的一种**高度近似**。下图中，两个信号的相似程度则更加明显。
 
-![signal-origin](/img/signal-origin.png)
+![signal-origin](/img/SNN-workshop/signal-origin.png)
 
 但这种近似的效果往往会受到参数制约，如下图所示，假如神经元的发放阈值进一步降低，对于一般位置的输入拟合将更加精细。但当输入信号很强时，神经元将达到最大发放率而饱和，对于越过该值的信号将无法准确拟合。
 
-![signal](/img/signal.png)
+![signal](/img/SNN-workshop/signal.png)
 
 另一方面显然的是，当神经元的发放阈值过高，将捕捉不到任何脉冲信号。
 
@@ -73,7 +75,7 @@ $$
 
 最后感受一下Sander Bohte对于“Yann LeCun之问”的隔空回应:joy:
 
-![SNNnb](/img/SNNnb.png)
+![SNNnb](/img/SNN-workshop/SNNnb.png)
 
 ## Wolfgang Maass组
 
