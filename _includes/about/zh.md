@@ -14,14 +14,17 @@
 # 教育经历
 
 - **2019.9 至今**
+  
   博士生，北京大学计算机学院，计算机应用技术
-
+  
 - **2015.9 - 2019.7**
+  
   理学学士学位，北京大学信息科学技术学院
 
 # 实习经历
 
 - **2020.6 至今**
+
   鹏城实验室，云脑研究所
 
 # 获奖
@@ -37,23 +40,33 @@
 # 论文发表
 
 - A Unified Framework for Soft Threshold Pruning
+  
   **Yanqi Chen**, Zhengyu Ma, Wei Fang, Xiawu Zheng, Zhaofei Yu, Yonghong Tian
+
   In **ICLR** 2023 [[pdf](https://openreview.net/pdf?id=cCFqcrq0d8), [code](https://github.com/Yanqi-Chen/LATS)]
-
+  
 - State Transition of Dendritic Spines Improves Learning of Sparse Spiking Neural Networks
+  
   **Yanqi Chen**, Zhaofei Yu, Wei Fang, Zhengyu Ma, Tiejun Huang, Yonghong Tian
+
   In **ICML** 2022 [[pdf](https://proceedings.mlr.press/v162/chen22ac/chen22ac.pdf), [code](https://github.com/Yanqi-Chen/STDS)]
-
+  
 - Pruning of Deep Spiking Neural Networks through Gradient Rewiring
+  
   **Yanqi Chen**, Zhaofei Yu, Wei Fang, Tiejun Huang, Yonghong Tian
+
   In **IJCAI** 2021 [[pdf](https://www.ijcai.org/proceedings/2021/0236.pdf), [code](https://github.com/Yanqi-Chen/Gradient-Rewiring)]
-
+  
 - Deep Residual Learning in Spiking Neural Networks
+  
   Wei Fang, Zhaofei Yu, **Yanqi Chen**, Tiejun Huang, Timothée Masquelier, Yonghong Tian
-  In **NeurIPS** 2021 [[pdf](https://proceedings.neurips.cc/paper/2021/file/afe434653a898da20044041262b3ac74-Paper.pdf), [code](https://github.com/fangwei123456/Spike-Element-Wise-ResNet)]
 
+  In **NeurIPS** 2021 [[pdf](https://proceedings.neurips.cc/paper/2021/file/afe434653a898da20044041262b3ac74-Paper.pdf), [code](https://github.com/fangwei123456/Spike-Element-Wise-ResNet)]
+  
 - Incorporating Learnable Membrane Time Constant to Enhance Learning of Spiking Neural Networks
+  
   Wei Fang, Zhaofei Yu, **Yanqi Chen**, Timothée Masquelier, Tiejun Huang, Yonghong Tian
+  
   In **ICCV** 2021 [[pdf](https://openaccess.thecvf.com/content/ICCV2021/papers/Fang_Incorporating_Learnable_Membrane_Time_Constant_To_Enhance_Learning_of_Spiking_ICCV_2021_paper.pdf), [code](https://github.com/fangwei123456/Parametric-Leaky-Integrate-and-Fire-Spiking-Neuron)]
 
 
